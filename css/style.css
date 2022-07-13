@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    background-color: black;
+}
+
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto 0px;
+    align-content: flex-start;
+}
+
+.square{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: solid 3px white;
+}
+
+.clicked{
+    background-color: red;
+}
