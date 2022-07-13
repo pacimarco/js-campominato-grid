@@ -11,8 +11,8 @@ html{
 #grid{
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     margin: 100px auto 0px;
     align-content: flex-start;
 }
@@ -21,8 +21,19 @@ html{
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: solid 3px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .clicked{
     background-color: red;
+}
+
+.clicked .square-number{
+    display: block;
+}
+
+.square-number{
+    display: none;
 }
